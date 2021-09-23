@@ -1,1 +1,2 @@
-the iostream does not 
+when the iostream is not included the compilter show a fatal error ,
+while printing i.e, using the cout <<
