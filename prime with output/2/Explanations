@@ -3,3 +3,7 @@ when the iostream is not included the compilter show a fatal error ,
 while printing i.e, using the cout << funcion as it it included in the iostream  libarary
 
 Task 2 explanation :
+the preprocessor doesnot include the #include<iostream> libraries for the  code it's the job of the linker.
+But it involves the #define function ,as it creates the symbolic constants called macros.and it replaces the variable defined in it  by their described values.
+
+Task 3 explanation :
