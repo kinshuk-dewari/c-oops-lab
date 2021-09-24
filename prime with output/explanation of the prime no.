@@ -1,0 +1,3 @@
+we use the sqrt method in the code as it provides the most efficient mode 
+to solve the problem , as all the no. are acquired to mod the no. is obtained 
+in numbers less than equal to the sqrt of the number.
