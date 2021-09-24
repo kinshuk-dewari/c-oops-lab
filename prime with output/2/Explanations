@@ -4,8 +4,12 @@ while printing i.e, using the cout << funcion as it it included in the iostream 
 
 Task 2 explanation :
 the preprocessor doesnot include the #include<iostream> libraries for the  code it's the job of the linker.
-But it involves the #define function ,as it creates the symbolic constants called macros.and it replaces the variable defined in it  by their described values.
+But it involves the #define function ,as it creates the symbolic constants called macros.and it replaces the
+variable defined in it  by their described values.
 
 Task 3 explanation :
-when a character initaialization takes palce using the cin >> function it does the implicit tyoe casting if the variable.
-but when the variable is printed it only prints the first value of the input . this  happens due to the  
+when a character initaialization takes palce using the cin >> function it does the implicit type casting if the
+variable,but when the variable is printed it only prints the first value of the input . this  happens as
+the cin >> function is change into the get() and it only reads the first value of the input .
+But  if want to solve the problem we have to us the getline() instead of the cin>> function as it reads the entire input of the user.
+
