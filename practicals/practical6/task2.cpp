@@ -1,5 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+void clear(void){
+while(getchar()!="\n");
+}
 int main(){
 string str,str2;
 cout<<"enter a string :\n";
@@ -10,6 +13,7 @@ cout<<"enter a string :\n";
   }
   cout<<str2<<"\n";
   cout<<str;
+  clear();
   if (str2==str)
     cout<<"\npallindrome\n";
   else
