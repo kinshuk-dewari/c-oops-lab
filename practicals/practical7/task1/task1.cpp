@@ -12,16 +12,16 @@ int main()
   switch(ch)
   {
     case 1:
-      cout<<"wednesday\n";
+      cout<<"Day : wednesday\n";
       break;
     case 2:
-      cout<<"13\n";
+      cout<<"Date : 13\n";
       break;
     case 3:
-      cout<<"october\n";
+      cout<<"Month : october\n";
       break;
     case 4:
-      cout<<"2021\n";
+      cout<<"Year : 2021\n";
       break;
     case 5:
       break;
