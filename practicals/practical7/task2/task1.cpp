@@ -14,11 +14,11 @@ int main()
       cin>>a[i][j];
     }
   }
-  for(int i=0;i<m;i++)
+  for(int i=m-1;i>=0;i--)
   {
-    for(int j=0;j<m;j++)
+    for(int j=m-1;j>=0;j--)
     {
-      cout<<10-a[i][j]<<" ";
+      cout<<a[i][j]<<" ";
     }
     cout<<endl;
   }
