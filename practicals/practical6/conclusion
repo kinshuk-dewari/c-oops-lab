@@ -1,0 +1,18 @@
+1.  The code will be able to pass the preprocessor phase of the compiler but not the compilation 
+phase of the compiler and it will generate two same errors that is invalid operands to binary 
+expression because the concatenation of string and integer is not allowed by the g++ compiler.
+
+2.  reverse iterators can be used to reverse the string using simple for loop without the reverse loop method.
+the string is stored in another variable and the later on compared with one another.
+
+
+5.  ASCII difference between two strings is returned by the string compare function.
+Example :- Suppose string str1="a" and string str2="B" so the function str1.compare(str2) 
+will return the difference of ASCII value of str1 and str2 which is 31 because the ASCII value of 'a' is 97 
+and the ASCII value of 'B' is 66 .
+So 97-66=31 therefore compare() function returns the difference of the ASCII value of two strings.
+
+6.  As we can see from the code that c++ does not create any other reference of the string rather
+than it modifies the same string as we can see that the address of the string is same before and
+after modifing of the string so we can say that strings in c++ are mutable. It means that we can 
+change the value of the string whenever we want and we can also see this from the code.
