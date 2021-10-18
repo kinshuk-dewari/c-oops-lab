@@ -6,6 +6,7 @@ int main()
   int m;
   cout<<"enter the rows : \n";
   cin>>m;
+//  int x = m%2==0?m-1:m-2;
   int x=m-1;
   int a[m][m];
   cout<<"enter the elements :\n";
