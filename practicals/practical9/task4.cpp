@@ -63,8 +63,7 @@ int main()
 		cout<<endl;
 		add(s[i]);
 	}
-	cout<<endl;
-	cout<<"The deatails of "<<n<<" Students are :"<<endl;
+	cout<<"The details of "<<n<<" Students are :"<<endl;
 	for(i=1;i<=n;i++)
 	{
 		cout<<"Name of Student "<<i<<" is : "<<s[i].getname(s[i])<<endl;
