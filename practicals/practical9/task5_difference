@@ -1,0 +1,38 @@
+STRUCTURE:
+Definition-
+A structure is a grouping of variables of various data types referenced by the same name.
+Access Specifiers-
+If no access specifier is specified, all members of the structure are set to 'public'.
+Memory-
+Memory of structure is allocated on the stack.	
+Security-
+All the members of the structure can be accessed throughout the program.
+Instance-
+Structure instance is called the 'structure variable'.
+Declaration-
+struct structure_name
+{
+    type struct_member 1;
+    type struct_member 2;
+    type struct_member 3;
+    .
+    .
+    type struct_memberN;
+};
+
+CLASS:
+a class is defined as a collection of related variables and functions contained within a single structure.
+Access Specifiers-
+And if no access specifier is defined, all members of the class are set to 'private'.
+Memory-
+And memory of class is allocated on the heap.
+Security-
+Whereas the class gives us the option to keep the members of the class public, private, protected.
+Instance-
+instance of the class is an object
+Declaration-
+class class_name
+{
+    data member;
+    member function;
+};
