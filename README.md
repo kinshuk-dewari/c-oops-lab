@@ -1,2 +1,2 @@
 # c-oops-lab
-ooplab programs
+oop lab programs 
