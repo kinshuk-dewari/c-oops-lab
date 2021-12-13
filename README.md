@@ -1,2 +1,2 @@
-# c-oops-lab
-# OOP Lab Programs 
+# C-Oops-Lab
+## OOP Lab Programs 
