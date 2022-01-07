@@ -27,6 +27,8 @@ int main()
     cout << "reverse list  :";
     a.reverse();
     printlist(a);
+    
+    
 
     return 0;
 }
